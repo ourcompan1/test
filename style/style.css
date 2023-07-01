@@ -18,26 +18,46 @@ a {
     max-width: 1180px;
     margin: 0 auto;
 }
-.header-top {
-}
 .top { 
     padding:24px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.top-logo {
- 
-}
 .top-item {
-    margin: 46px;
+    margin-right: 26px;
+
+}
+.top-item:last-child {
+    margin-right: 0px;
 
 }
 .top-menu {
     display: flex;
   
-
 }
 .top-link {
-
+    color: #443737;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.top-link:hover {
+    border-bottom: 4px solid #FFC725;
+}
+.basket{
+     display: flex;
+     align-items: center;
+     
+}
+.basket-text{
+    color: #443737;
+font-size: 15px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 5px;
 }
