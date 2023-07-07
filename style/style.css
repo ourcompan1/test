@@ -26,21 +26,17 @@ a {
 }
 .top-item {
     margin-right: 26px;
-
 }
 .top-item:last-child {
     margin-right: 0px;
-
 }
 .top-menu {
     display: flex;
-  
 }
 .top-link {
     color: #443737;
     font-size: 20px;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: 600;
     line-height: 24px;
 }
@@ -48,18 +44,16 @@ a {
     border-bottom: 4px solid #FFC725;
 }
 .basket{
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
      
 }
 .basket-text{
     color: #443737;
-font-size: 15px;
-font-family: Open Sans;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 5px;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-left: 5px;
 }
 .header-menu {
     background:url('../img/Group\ 3.png') ;
@@ -70,23 +64,20 @@ margin-left: 5px;
     align-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .text1 {
     color: #DEDEDE;
-text-align: center;
-font-size: 15px;
-font-family: Open Sans;
-font-weight: 400;
-padding-bottom: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: 400;
+    padding-bottom: 8px;
 }
 .menushka {
     color: #FFF;
     font-size: 79px;
     font-family: Nunito Sans;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-align: center;
 }
 .text2 {
@@ -99,7 +90,8 @@ padding-bottom: 8px;
     padding-top: 11px;
     
 }
-.banner{margin-top: 141px;
+.banner{
+    margin-top: 141px;
     margin-bottom: 100px;
 
 }
@@ -151,4 +143,46 @@ padding-bottom: 8px;
     line-height: 129%;
     border: none;
     cursor: pointer;
+}
+.text-menu{
+    font-size: 48px;
+    color: #1E2F40;
+}
+.burger-title {
+    color: #1B2A49;
+    font-family: Nunito Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 127%;
+    text-transform: uppercase;
+}
+.burger-name {
+    color: #1B2A49;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 127%;
+}
+.burger-price {
+    color: #979797;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+.burger-btn {
+    border-radius: 5px;
+    background: #FBB731;
+    cursor: pointer;
+    border: none;
+    color: #1E2F40;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 129%;
+    text-transform: uppercase;
 }
